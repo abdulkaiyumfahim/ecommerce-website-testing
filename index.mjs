@@ -64,7 +64,7 @@ import puppeteer, { Page } from "puppeteer";
 
   const extractText = (page, selector) => {
     return page.evaluate(() => {
-      return document.querySelector(".grid-title")?.innerHTML;
+      return document.querySelector(selector)?.innerHTML;
     });
   };
 
