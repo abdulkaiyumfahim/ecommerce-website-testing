@@ -17,4 +17,20 @@ const productLinks = await page.evaluate(() => {
 console.log(productLinks);
 
 await page.click();
-await browser.close();
+// await browser.close();
+
+for (const productLink of productLinks) {
+  const page = await browser.newPage();
+  await page.goto(productLink, { waitUntil: "networkidle0" });
+
+  await page.waitForSelector(".grid-title");
+  const title = page.evaluate(() => {
+    return document.querySelector(".grid-title")?.innerHTML;
+  });
+
+  const price = page.evaluate(() => {
+    return document.querySelector(".product-price")?.innerHTML;
+  });
+  console.log(productLink, title, price);
+  await page.close();
+}
