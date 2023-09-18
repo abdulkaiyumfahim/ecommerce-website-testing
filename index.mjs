@@ -76,7 +76,12 @@ const saveToDB = async (id, productData) => {
     }, selector);
   };
 
-  for (const productLink of productLinks) {
+  for (let productLink of productLinks) {
+    if (db.data[productLink]) {
+      console.log("Item already exists");
+      continue;
+    }
+    console.log(productLink);
     const page = await browser.newPage();
     await page.goto(productLink, { waitUntil: "networkidle0" });
 

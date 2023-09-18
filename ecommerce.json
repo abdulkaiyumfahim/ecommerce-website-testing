@@ -1,0 +1,467 @@
+{
+  "https://alameda-fluid-demo.squarespace.com/shop/p/lounge-tunic": {
+    "productLink": "https://alameda-fluid-demo.squarespace.com/shop/p/lounge-tunic",
+    "title": "Lisa Shirt",
+    "price": "\n$50.00\n",
+    "variantData": [
+      {
+        "variant": "",
+        "price": "\n$50.00\n"
+      },
+      {
+        "variant": "0",
+        "price": "$50.00"
+      },
+      {
+        "variant": "2",
+        "price": "$50.00"
+      },
+      {
+        "variant": "4",
+        "price": "$50.00"
+      },
+      {
+        "variant": "6",
+        "price": "$50.00"
+      },
+      {
+        "variant": "8",
+        "price": "$50.00"
+      }
+    ]
+  },
+  "https://alameda-fluid-demo.squarespace.com/shop/p/lounge-tunic-/-blue": {
+    "productLink": "https://alameda-fluid-demo.squarespace.com/shop/p/lounge-tunic-/-blue",
+    "title": "Poplin Chef Shirt",
+    "price": "\n$50.00\n",
+    "variantData": [
+      {
+        "variant": "",
+        "price": "\n$50.00\n"
+      },
+      {
+        "variant": "0",
+        "price": "$50.00"
+      },
+      {
+        "variant": "2",
+        "price": "$50.00"
+      },
+      {
+        "variant": "4",
+        "price": "$50.00"
+      },
+      {
+        "variant": "6",
+        "price": "$50.00"
+      },
+      {
+        "variant": "8",
+        "price": "$50.00"
+      }
+    ]
+  },
+  "https://alameda-fluid-demo.squarespace.com/shop/p/lounge-tunic-/-cream": {
+    "productLink": "https://alameda-fluid-demo.squarespace.com/shop/p/lounge-tunic-/-cream",
+    "title": "Terra Cotta Studio Top",
+    "price": "\n<span class=\"visually-hidden v6-visually-hidden\">Sale Price:</span>$40.00 <span class=\"visually-hidden v6-visually-hidden\">Original Price:</span><span class=\"original-price\">$50.00</span>\n\n",
+    "variantData": [
+      {
+        "variant": "",
+        "price": "\n<span class=\"visually-hidden v6-visually-hidden\">Sale Price:</span>$40.00 <span class=\"visually-hidden v6-visually-hidden\">Original Price:</span><span class=\"original-price\">$50.00</span>\n\n"
+      },
+      {
+        "variant": "0",
+        "price": "<span class=\"visually-hidden v6-visually-hidden\">Sale Price: </span>$40.00 <span class=\"visually-hidden v6-visually-hidden\">Original Price: </span><span class=\"original-price\">$50.00</span>"
+      },
+      {
+        "variant": "2",
+        "price": "<span class=\"visually-hidden v6-visually-hidden\">Sale Price: </span>$40.00 <span class=\"visually-hidden v6-visually-hidden\">Original Price: </span><span class=\"original-price\">$50.00</span>"
+      },
+      {
+        "variant": "4",
+        "price": "<span class=\"visually-hidden v6-visually-hidden\">Sale Price: </span>$40.00 <span class=\"visually-hidden v6-visually-hidden\">Original Price: </span><span class=\"original-price\">$50.00</span>"
+      },
+      {
+        "variant": "6",
+        "price": "<span class=\"visually-hidden v6-visually-hidden\">Sale Price: </span>$40.00 <span class=\"visually-hidden v6-visually-hidden\">Original Price: </span><span class=\"original-price\">$50.00</span>"
+      },
+      {
+        "variant": "8",
+        "price": "<span class=\"visually-hidden v6-visually-hidden\">Sale Price: </span>$40.00 <span class=\"visually-hidden v6-visually-hidden\">Original Price: </span><span class=\"original-price\">$50.00</span>"
+      }
+    ]
+  },
+  "https://alameda-fluid-demo.squarespace.com/shop/p/sonia-skirt": {
+    "productLink": "https://alameda-fluid-demo.squarespace.com/shop/p/sonia-skirt",
+    "title": "Lounge Tunic / Blue",
+    "price": "\n$50.00\n",
+    "variantData": [
+      {
+        "variant": "",
+        "price": "\n$50.00\n"
+      },
+      {
+        "variant": "0",
+        "price": "$50.00"
+      },
+      {
+        "variant": "2",
+        "price": "$50.00"
+      },
+      {
+        "variant": "4",
+        "price": "$50.00"
+      },
+      {
+        "variant": "6",
+        "price": "$50.00"
+      },
+      {
+        "variant": "8",
+        "price": "$50.00"
+      }
+    ]
+  },
+  "https://alameda-fluid-demo.squarespace.com/shop/p/sonia-dress": {
+    "productLink": "https://alameda-fluid-demo.squarespace.com/shop/p/sonia-dress",
+    "title": "Terra Cotta Studio Top",
+    "price": "\n$50.00\n",
+    "variantData": [
+      {
+        "variant": "",
+        "price": "\n$50.00\n"
+      },
+      {
+        "variant": "0",
+        "price": "$50.00"
+      },
+      {
+        "variant": "2",
+        "price": "$50.00"
+      },
+      {
+        "variant": "4",
+        "price": "$50.00"
+      },
+      {
+        "variant": "6",
+        "price": "$50.00"
+      },
+      {
+        "variant": "8",
+        "price": "$50.00"
+      }
+    ]
+  },
+  "https://alameda-fluid-demo.squarespace.com/shop/p/wide-pant": {
+    "productLink": "https://alameda-fluid-demo.squarespace.com/shop/p/wide-pant",
+    "title": "Jacky Trousers",
+    "price": "\n$50.00\n",
+    "variantData": [
+      {
+        "variant": "",
+        "price": "\n$50.00\n"
+      },
+      {
+        "variant": "0",
+        "price": "$50.00"
+      },
+      {
+        "variant": "2",
+        "price": "$50.00"
+      },
+      {
+        "variant": "4",
+        "price": "$50.00"
+      },
+      {
+        "variant": "6",
+        "price": "$50.00"
+      },
+      {
+        "variant": "8",
+        "price": "$50.00"
+      }
+    ]
+  },
+  "https://alameda-fluid-demo.squarespace.com/shop/p/haori-jacket": {
+    "productLink": "https://alameda-fluid-demo.squarespace.com/shop/p/haori-jacket",
+    "title": "Sonia Skirt",
+    "price": "\n$50.00\n",
+    "variantData": [
+      {
+        "variant": "",
+        "price": "\n$50.00\n"
+      },
+      {
+        "variant": "0",
+        "price": "$50.00"
+      },
+      {
+        "variant": "2",
+        "price": "$50.00"
+      },
+      {
+        "variant": "4",
+        "price": "$50.00"
+      },
+      {
+        "variant": "6",
+        "price": "$50.00"
+      },
+      {
+        "variant": "8",
+        "price": "$50.00"
+      }
+    ]
+  },
+  "https://alameda-fluid-demo.squarespace.com/shop/p/wide-pant-/-blue": {
+    "productLink": "https://alameda-fluid-demo.squarespace.com/shop/p/wide-pant-/-blue",
+    "title": "Wide Pant",
+    "price": "\n$50.00\n",
+    "variantData": [
+      {
+        "variant": "",
+        "price": "\n$50.00\n"
+      },
+      {
+        "variant": "0",
+        "price": "$50.00"
+      },
+      {
+        "variant": "2",
+        "price": "$50.00"
+      },
+      {
+        "variant": "4",
+        "price": "$50.00"
+      },
+      {
+        "variant": "6",
+        "price": "$50.00"
+      },
+      {
+        "variant": "8",
+        "price": "$50.00"
+      }
+    ]
+  },
+  "https://alameda-fluid-demo.squarespace.com/shop/p/jane-skirt": {
+    "productLink": "https://alameda-fluid-demo.squarespace.com/shop/p/jane-skirt",
+    "title": "Wide Pant",
+    "price": "\n$50.00\n",
+    "variantData": [
+      {
+        "variant": "",
+        "price": "\n$50.00\n"
+      },
+      {
+        "variant": "0",
+        "price": "$50.00"
+      },
+      {
+        "variant": "2",
+        "price": "$50.00"
+      },
+      {
+        "variant": "4",
+        "price": "$50.00"
+      },
+      {
+        "variant": "6",
+        "price": "$50.00"
+      },
+      {
+        "variant": "8",
+        "price": "$50.00"
+      }
+    ]
+  },
+  "https://alameda-fluid-demo.squarespace.com/shop/p/romy-trousers": {
+    "productLink": "https://alameda-fluid-demo.squarespace.com/shop/p/romy-trousers",
+    "title": "Wide Pant",
+    "price": "\n$50.00\n",
+    "variantData": [
+      {
+        "variant": "",
+        "price": "\n$50.00\n"
+      },
+      {
+        "variant": "0",
+        "price": "$50.00"
+      },
+      {
+        "variant": "2",
+        "price": "$50.00"
+      },
+      {
+        "variant": "4",
+        "price": "$50.00"
+      },
+      {
+        "variant": "6",
+        "price": "$50.00"
+      },
+      {
+        "variant": "8",
+        "price": "$50.00"
+      }
+    ]
+  },
+  "https://alameda-fluid-demo.squarespace.com/shop/p/poplin-chef-shirt": {
+    "productLink": "https://alameda-fluid-demo.squarespace.com/shop/p/poplin-chef-shirt",
+    "title": "Sonia Skirt",
+    "price": "\nfrom $40.00\n\n",
+    "variantData": [
+      {
+        "variant": "",
+        "price": "\nfrom $40.00\n\n"
+      },
+      {
+        "variant": "0",
+        "price": "$50.00"
+      },
+      {
+        "variant": "2",
+        "price": "$50.00"
+      },
+      {
+        "variant": "4",
+        "price": "$50.00"
+      },
+      {
+        "variant": "6",
+        "price": "$50.00"
+      },
+      {
+        "variant": "8",
+        "price": "<span class=\"visually-hidden v6-visually-hidden\">Sale Price: </span>$40.00 <span class=\"visually-hidden v6-visually-hidden\">Original Price: </span><span class=\"original-price\">$50.00</span>"
+      }
+    ]
+  },
+  "https://alameda-fluid-demo.squarespace.com/shop/p/jacky-trousers": {
+    "productLink": "https://alameda-fluid-demo.squarespace.com/shop/p/jacky-trousers",
+    "title": "Romy Trousers",
+    "price": "\n$50.00\n",
+    "variantData": [
+      {
+        "variant": "",
+        "price": "\n$50.00\n"
+      },
+      {
+        "variant": "0",
+        "price": "$50.00"
+      },
+      {
+        "variant": "2",
+        "price": "$50.00"
+      },
+      {
+        "variant": "4",
+        "price": "$50.00"
+      },
+      {
+        "variant": "6",
+        "price": "$50.00"
+      },
+      {
+        "variant": "8",
+        "price": "$50.00"
+      }
+    ]
+  },
+  "https://alameda-fluid-demo.squarespace.com/shop/p/lisa-shirt": {
+    "productLink": "https://alameda-fluid-demo.squarespace.com/shop/p/lisa-shirt",
+    "title": "Sonia Skirt",
+    "price": "\n$50.00\n",
+    "variantData": [
+      {
+        "variant": "",
+        "price": "\n$50.00\n"
+      },
+      {
+        "variant": "0",
+        "price": "$50.00"
+      },
+      {
+        "variant": "2",
+        "price": "$50.00"
+      },
+      {
+        "variant": "4",
+        "price": "$50.00"
+      },
+      {
+        "variant": "6",
+        "price": "$50.00"
+      },
+      {
+        "variant": "8",
+        "price": "$50.00"
+      }
+    ]
+  },
+  "https://alameda-fluid-demo.squarespace.com/shop/p/terra-cotta-studio-top": {
+    "productLink": "https://alameda-fluid-demo.squarespace.com/shop/p/terra-cotta-studio-top",
+    "title": "Lounge Tunic / Cream",
+    "price": "\n<span class=\"visually-hidden v6-visually-hidden\">Sale Price:</span>$40.00 <span class=\"visually-hidden v6-visually-hidden\">Original Price:</span><span class=\"original-price\">$50.00</span>\n\n",
+    "variantData": [
+      {
+        "variant": "",
+        "price": "\n<span class=\"visually-hidden v6-visually-hidden\">Sale Price:</span>$40.00 <span class=\"visually-hidden v6-visually-hidden\">Original Price:</span><span class=\"original-price\">$50.00</span>\n\n"
+      },
+      {
+        "variant": "0",
+        "price": "<span class=\"visually-hidden v6-visually-hidden\">Sale Price: </span>$40.00 <span class=\"visually-hidden v6-visually-hidden\">Original Price: </span><span class=\"original-price\">$50.00</span>"
+      },
+      {
+        "variant": "2",
+        "price": "<span class=\"visually-hidden v6-visually-hidden\">Sale Price: </span>$40.00 <span class=\"visually-hidden v6-visually-hidden\">Original Price: </span><span class=\"original-price\">$50.00</span>"
+      },
+      {
+        "variant": "4",
+        "price": "<span class=\"visually-hidden v6-visually-hidden\">Sale Price: </span>$40.00 <span class=\"visually-hidden v6-visually-hidden\">Original Price: </span><span class=\"original-price\">$50.00</span>"
+      },
+      {
+        "variant": "6",
+        "price": "<span class=\"visually-hidden v6-visually-hidden\">Sale Price: </span>$40.00 <span class=\"visually-hidden v6-visually-hidden\">Original Price: </span><span class=\"original-price\">$50.00</span>"
+      },
+      {
+        "variant": "8",
+        "price": "<span class=\"visually-hidden v6-visually-hidden\">Sale Price: </span>$40.00 <span class=\"visually-hidden v6-visually-hidden\">Original Price: </span><span class=\"original-price\">$50.00</span>"
+      }
+    ]
+  },
+  "https://alameda-fluid-demo.squarespace.com/shop/p/linen-top-/-blue": {
+    "productLink": "https://alameda-fluid-demo.squarespace.com/shop/p/linen-top-/-blue",
+    "title": "Lounge Tunic / Blue",
+    "price": "\n$50.00\n",
+    "variantData": [
+      {
+        "variant": "",
+        "price": "\n$50.00\n"
+      },
+      {
+        "variant": "0",
+        "price": "$50.00"
+      },
+      {
+        "variant": "2",
+        "price": "$50.00"
+      },
+      {
+        "variant": "4",
+        "price": "$50.00"
+      },
+      {
+        "variant": "6",
+        "price": "$50.00"
+      },
+      {
+        "variant": "8",
+        "price": "$50.00"
+      }
+    ]
+  }
+}
