@@ -57,12 +57,6 @@ import { setTimeout } from "timers/promises";
 
   await page.close();
 
-  /**
-   *
-   * @param {Page} page
-   * @param {String} selector
-   */
-
   const extractText = (page, selector) => {
     return page.evaluate((selector) => {
       return document.querySelector(selector)?.innerHTML;
@@ -77,25 +71,28 @@ import { setTimeout } from "timers/promises";
 
     const title = await extractText(page, ".grid-title");
     const price = await extractText(page, ".product-price");
-    // const price = await page.evaluate(() => {
-    //   return document.querySelector(".product-price")?.innerHTML;
-    // });
-    console.log({ productLink, title, price });
-    const variants = await page.evaluate(() => {
-      return [
-        ...document.querySelectorAll(`[aria-label="Select Size"] option`),
-      ].map((e) => console.log(e.value));
+
+    const variantOptions = await page.evaluate(() => {
+      const options = document.querySelectorAll(
+        '[aria-label="Select Size"] option'
+      );
+      return Array.from(options).map((option) => option.value);
     });
 
-    const variant = [];
+    const variantData = [];
 
-    for (const variant of variants) {
-      await page.select(`[aria-label="Select Size"]`, variant);
-      await setTimeout(1000);
-      await extractText(page, ".product-price");
+    for (const variant of variantOptions) {
+      await page.select('[aria-label="Select Size"]', variant);
+      await page.waitForTimeout(1000); // Use page.waitForTimeout to pause execution
+      variantData.push({
+        variant,
+        price: await extractText(page, ".product-price"),
+      });
     }
+
+    console.log({ productLink, title, price, variantData });
     await page.close();
   }
 
-  // await browser.close(); // Close the browser when done.
+  await browser.close(); // Close the browser when done.
 })();
