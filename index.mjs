@@ -38,8 +38,21 @@
 import puppeteer, { Page } from "puppeteer";
 import { setTimeout } from "timers/promises";
 
+import { Low } from "lowdb";
+import { JSONFile } from "lowdb/node";
+const db = new Low(new JSONFile("ecommerce.json"), {});
+await db.read();
+
+const saveToDB = async (id, productData) => {
+  db.data[id] = productData;
+  await db.write();
+};
+
 (async () => {
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch({
+    headless: false,
+    userDataDir: "tmp/ecommerce-crawler",
+  });
   const page = await browser.newPage();
 
   await page.goto("https://alameda-fluid-demo.squarespace.com/", {
@@ -90,7 +103,7 @@ import { setTimeout } from "timers/promises";
       });
     }
 
-    console.log({ productLink, title, price, variantData });
+    await saveToDB(productLink, { productLink, title, price, variantData });
     await page.close();
   }
 
