@@ -36,6 +36,7 @@
 // }
 
 import puppeteer, { Page } from "puppeteer";
+import { setTimeout } from "timers/promises";
 
 (async () => {
   const browser = await puppeteer.launch({ headless: false });
@@ -80,6 +81,19 @@ import puppeteer, { Page } from "puppeteer";
     //   return document.querySelector(".product-price")?.innerHTML;
     // });
     console.log({ productLink, title, price });
+    const variants = await page.evaluate(() => {
+      return [
+        ...document.querySelectorAll(`[aria-label="Select Size"] option`),
+      ].map((e) => console.log(e.value));
+    });
+
+    const variant = [];
+
+    for (const variant of variants) {
+      await page.select(`[aria-label="Select Size"]`, variant);
+      await setTimeout(1000);
+      await extractText(page, ".product-price");
+    }
     await page.close();
   }
 
