@@ -35,7 +35,7 @@
 //   await page.close();
 // }
 
-import puppeteer from "puppeteer";
+import puppeteer, { Page } from "puppeteer";
 
 (async () => {
   const browser = await puppeteer.launch({ headless: false });
@@ -56,18 +56,29 @@ import puppeteer from "puppeteer";
 
   await page.close();
 
+  /**
+   *
+   * @param {Page} page
+   * @param {String} selector
+   */
+
+  const extractText = (page, selector) => {
+    return page.evaluate(() => {
+      return document.querySelector(".grid-title")?.innerHTML;
+    });
+  };
+
   for (const productLink of productLinks) {
     const page = await browser.newPage();
     await page.goto(productLink, { waitUntil: "networkidle0" });
 
     await page.waitForSelector(".grid-title");
-    const title = await page.evaluate(() => {
-      return document.querySelector(".grid-title")?.innerHTML;
-    });
 
-    const price = await page.evaluate(() => {
-      return document.querySelector(".product-price")?.innerHTML;
-    });
+    await extractText(page, ".grid-title");
+    await extractText(page, ".product-price");
+    // const price = await page.evaluate(() => {
+    //   return document.querySelector(".product-price")?.innerHTML;
+    // });
     console.log(productLink, title, price);
     await page.close();
   }
