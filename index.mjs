@@ -63,9 +63,9 @@ import puppeteer, { Page } from "puppeteer";
    */
 
   const extractText = (page, selector) => {
-    return page.evaluate(() => {
+    return page.evaluate((selector) => {
       return document.querySelector(selector)?.innerHTML;
-    });
+    }, selector);
   };
 
   for (const productLink of productLinks) {
@@ -74,14 +74,14 @@ import puppeteer, { Page } from "puppeteer";
 
     await page.waitForSelector(".grid-title");
 
-    await extractText(page, ".grid-title");
-    await extractText(page, ".product-price");
+    const title = await extractText(page, ".grid-title");
+    const price = await extractText(page, ".product-price");
     // const price = await page.evaluate(() => {
     //   return document.querySelector(".product-price")?.innerHTML;
     // });
-    console.log(productLink, title, price);
+    console.log({ productLink, title, price });
     await page.close();
   }
 
-  await browser.close(); // Close the browser when done.
+  // await browser.close(); // Close the browser when done.
 })();
